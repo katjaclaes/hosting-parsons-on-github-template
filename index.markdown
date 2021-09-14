@@ -48,12 +48,12 @@ Sorteer de blokken zodat de print opdracht correct wordt uitgevoerd.
 ## Oefening 2
 Zoek het maximum getal:
 
-<div id="Parsons problem 5-sortableTrash" class="sortable-code"></div> 
-<div id="Parsons problem 5-sortable" class="sortable-code"></div> 
+<div id="Parsonsproblem5-sortableTrash" class="sortable-code"></div> 
+<div id="Parsonsproblem5-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Parsons problem 5-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Parsons problem 5-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Parsonsproblem5-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Parsonsproblem5-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -64,22 +64,22 @@ Zoek het maximum getal:
     "            max = item\n" +
     "    return max";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Parsons problem 5-sortable",
+    "sortableId": "Parsonsproblem5-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "Parsons problem 5-sortableTrash"
+    "trashId": "Parsonsproblem5-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Parsons problem 5-newInstanceLink").click(function(event){ 
+  $("#Parsonsproblem5-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Parsons problem 5-feedbackLink").click(function(event){ 
+  $("#Parsonsproblem5-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -89,12 +89,12 @@ Zoek het maximum getal:
 ## Oefening 3 
 Sorteer de blokken zodat het totaal bedrag wordt afgedrukt. Let op want niet alle lijnen zijn correct en nodig.
 
-<div id="Parsons problem 1-sortableTrash" class="sortable-code"></div> 
-<div id="Parsons problem 1-sortable" class="sortable-code"></div> 
+<div id="Parsonsproblem1-sortableTrash" class="sortable-code"></div> 
+<div id="Parsonsproblem1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Parsons problem 1-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Parsons problem 1-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Parsonsproblem1-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Parsonsproblem1-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -105,22 +105,22 @@ Sorteer de blokken zodat het totaal bedrag wordt afgedrukt. Let op want niet all
     "print(str(“totaal”)) #distractor\n" +
     "totaal = prijs x hoeveelheid #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Parsons problem 1-sortable",
+    "sortableId": "Parsonsproblem1-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "Parsons problem 1-sortableTrash"
+    "trashId": "Parsonsproblem1-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Parsons problem 1-newInstanceLink").click(function(event){ 
+  $("#Parsonsproblem1-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Parsons problem 1-feedbackLink").click(function(event){ 
+  $("#Parsonsproblem1-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -130,12 +130,12 @@ Sorteer de blokken zodat het totaal bedrag wordt afgedrukt. Let op want niet all
 ## Oefening 4
 Vraag een nummer op en geef weer of dit even of oneven is:
 
-<div id="Parsons problem 3-sortableTrash" class="sortable-code"></div> 
-<div id="Parsons problem 3-sortable" class="sortable-code"></div> 
+<div id="Parsonsproblem3-sortableTrash" class="sortable-code"></div> 
+<div id="Parsonsproblem3-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Parsons problem 3-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Parsons problem 3-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Parsonsproblem3-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Parsonsproblem3-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -146,22 +146,22 @@ Vraag een nummer op en geef weer of dit even of oneven is:
     "else:\n" +
     "   print(&quot;Dit is een even nummer!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Parsons problem 3-sortable",
+    "sortableId": "Parsonsproblem3-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "Parsons problem 3-sortableTrash"
+    "trashId": "Parsonsproblem3-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Parsons problem 3-newInstanceLink").click(function(event){ 
+  $("#Parsonsproblem3-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Parsons problem 3-feedbackLink").click(function(event){ 
+  $("#Parsonsproblem3-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -172,12 +172,12 @@ Vraag een nummer op en geef weer of dit even of oneven is:
 
 Maak een gokspel. De computer genereert een willekeurig getal tussen 1 en 9. De gebruiker kan dan het getal raden, de computer geeft vervolgens advies of het hoger of lager moet zijn. De gebruiker kan stoppen door "stop" te typen als gok. De computer schrijft hoeveel keer er gegokt werd wanneer het spel stopt.
 
-<div id="Parsons problem 4-sortableTrash" class="sortable-code"></div> 
-<div id="Parsons problem 4-sortable" class="sortable-code"></div> 
+<div id="Parsonsproblem4-sortableTrash" class="sortable-code"></div> 
+<div id="Parsonsproblem4-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Parsons problem 4-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Parsons problem 4-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Parsonsproblem4-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Parsonsproblem4-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -194,22 +194,22 @@ Maak een gokspel. De computer genereert een willekeurig getal tussen 1 en 9. De 
     "    gok = int(input(&quot;Geef een getal tussen 1 en 9: (Typ stop om te eindigen)&quot;))\n" +
     "print(&quot;Je had &quot; + str(teller) + &quot; gokken nodig!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Parsons problem 4-sortable",
+    "sortableId": "Parsonsproblem4-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "Parsons problem 4-sortableTrash"
+    "trashId": "Parsonsproblem4-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Parsons problem 4-newInstanceLink").click(function(event){ 
+  $("#Parsonsproblem4-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Parsons problem 4-feedbackLink").click(function(event){ 
+  $("#Parsonsproblem4-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
