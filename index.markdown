@@ -5,7 +5,7 @@
 layout: default
 title: Parson's Problemen
 ---
-# Parson's Problemen
+# Niet alle code is 100% correct om de interpretatie eenvoudig te houden
 
 ## Oefening 1
 Sorteer de blokken zodat de print opdracht correct wordt uitgevoerd.
