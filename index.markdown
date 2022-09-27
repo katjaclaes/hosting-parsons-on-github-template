@@ -45,7 +45,7 @@ Sorteer de blokken zodat de print opdracht correct wordt uitgevoerd.
 </script>
 
 ## Oefening 2
-Zet in de juiste volgorde zodat de totaalprijs wordt afgedrukt. Let goed op want niet alle regels zijn correct:
+Zet in de juiste volgorde zodat de totaalprijs wordt afgedrukt.
 
 <div id="2-sortableTrash" class="sortable-code"></div> 
 <div id="2-sortable" class="sortable-code"></div> 
@@ -60,8 +60,6 @@ Zet in de juiste volgorde zodat de totaalprijs wordt afgedrukt. Let goed op want
     "hoeveelheid = 5\n" +
     "totaal = prijs * hoeveelheid\n" +
     "print(totaal)\n" +
-    "totaal = prijs * Hoeveelheid #distractor\n" +
-    "print(“totaal”) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "2-sortable",
     "max_wrong_lines": 10,
@@ -98,16 +96,16 @@ Sorteer de blokken zodat ik "A" als resultaat krijg bij een score hoger of gelij
 (function(){
   var initial = "score = int(input(&quot;Wat is je score?&quot;))\n" +
     "if score &gt;= 90:\n" +
-    "    grade = &quot;A&quot;\n" +
+    "grade = &quot;A&quot;\n" +
     "else:\n" +
-    "    grade = &quot;E&quot;\n" +
+    "grade = &quot;E&quot;\n" +
     "print(grade)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "3-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": true,
+    "can_indent": false,
     "x_indent": 50,
     "lang": "en"
   });
@@ -125,7 +123,7 @@ Sorteer de blokken zodat ik "A" als resultaat krijg bij een score hoger of gelij
 </script>
 
 ## Oefening 4
-Vraag een nummer op en geef weer of dit even of oneven is:
+Vraag twee getallen op en geef weer of getal 1 hoger is dan getal 2:
 
 <div id="4-sortableTrash" class="sortable-code"></div> 
 <div id="4-sortable" class="sortable-code"></div> 
@@ -136,17 +134,16 @@ Vraag een nummer op en geef weer of dit even of oneven is:
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "getal = int(input(&quot;Geef een getal: &quot;))\n" +
-    "if getal%2 == 0:\n" +
-    "    print(&quot;Even&quot;)\n" +
-    "else:\n" +
-    "    print(&quot;Oneven&quot;)";
+  var initial = "getal1 = int(input(&quot;Geef een eerste getal: &quot;))\n" +
+    "getal2 = int(input(&quot;Geef een tweede getal: &quot;))\n" +
+    "if getal1 > getal2: \n" +
+    "print(&quot;Getal 1 is groter&quot;)\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "4-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": true,
+    "can_indent": false,
     "x_indent": 50,
     "lang": "en"
   });
