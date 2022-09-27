@@ -14,8 +14,8 @@ Sorteer de blokken zodat de print opdracht correct wordt uitgevoerd.
 <div id="1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="1-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="1-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="1-feedbackLink" value="Feedback" type="button" /> 
+    <input id="1-newInstanceLink" value="Reset" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -51,8 +51,8 @@ Zet in de juiste volgorde zodat de totaalprijs wordt afgedrukt.
 <div id="2-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="2-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="2-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="2-feedbackLink" value="Feedback" type="button" /> 
+    <input id="2-newInstanceLink" value="Reset" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -89,8 +89,8 @@ Sorteer de blokken zodat ik "A" als resultaat krijg bij een score hoger of gelij
 <div id="3-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="3-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="3-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="3-feedbackLink" value="Feedback" type="button" /> 
+    <input id="3-newInstanceLink" value="Reset" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -129,8 +129,8 @@ Vraag twee getallen op en geef weer of getal 1 hoger is dan getal 2:
 <div id="4-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="4-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="4-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="4-feedbackLink" value="Feedback" type="button" /> 
+    <input id="4-newInstanceLink" value="Reset" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
