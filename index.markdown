@@ -59,7 +59,7 @@ Zet in de juiste volgorde zodat de totaalprijs wordt afgedrukt.
   var initial = "prijs = 3.50\n" +
     "hoeveelheid = 5\n" +
     "totaal = prijs * hoeveelheid\n" +
-    "print(totaal)\n" +
+    "print(totaal)\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "2-sortable",
     "max_wrong_lines": 10,
